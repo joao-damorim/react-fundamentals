@@ -6,6 +6,8 @@ import HelloWorld from './components/HelloWorld';
 import SayMyName from './components/SayMyName';
 import Person from './components/Person';
 import List from './components/List';
+import Event from './components/Event';
+import Form from './components/Form';
 
 function App() {
 
@@ -18,6 +20,8 @@ function App() {
       <SayMyName name={name}/>
       <Person name={name} age={10}/>
       <List />
+      <Event />
+      <Form />
     </div>
   );
 }
