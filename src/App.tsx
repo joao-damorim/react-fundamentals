@@ -5,6 +5,7 @@ import { SourceMap } from 'module';
 import HelloWorld from './components/HelloWorld';
 import SayMyName from './components/SayMyName';
 import Person from './components/Person';
+import List from './components/List';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <SayMyName name='João'/>
       <SayMyName name={name}/>
       <Person name={name} age={10}/>
+      <List />
     </div>
   );
 }
