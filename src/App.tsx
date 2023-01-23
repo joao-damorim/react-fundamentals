@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { SourceMap } from 'module';
+import HelloWorld from './components/HelloWorld';
 
 function App() {
   const name = 'João'
@@ -19,6 +20,7 @@ function App() {
       <h3>Meu nome é { newName }</h3>
       <h3>A soma é {sum(1,3)}</h3>
       <img src={url} alt="150x150"/>
+      <HelloWorld />
     </div>
   );
 }
