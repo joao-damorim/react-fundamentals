@@ -9,10 +9,13 @@ import List from './components/List';
 import Event from './components/Event';
 import Form from './components/Form';
 import Conditional from './components/Conditional';
+import AnotherList from './components/AnotherList';
 
 function App() {
 
   const name = 'Maria'
+
+  const myItems = ['React', 'Vue', 'Angular']
 
   return (
     <div className="App">
@@ -24,6 +27,9 @@ function App() {
       <Event />
       <Form />
       <Conditional />
+      <h1>Renderização do Listas</h1>
+      <AnotherList myItems={myItems}/>
+      <AnotherList myItems={[]}/>
     </div>
   );
 }
