@@ -8,6 +8,7 @@ import Person from './components/Person';
 import List from './components/List';
 import Event from './components/Event';
 import Form from './components/Form';
+import Conditional from './components/Conditional';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
       <List />
       <Event />
       <Form />
+      <Conditional />
     </div>
   );
 }
